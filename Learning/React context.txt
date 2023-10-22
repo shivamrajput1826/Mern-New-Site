@@ -24,6 +24,9 @@
         </GlobalContext.Provider>
     )
   }
+  4) types => interface combination can be used in types
+  5) Index.ts
+    export const useGlobalData =
 
 
  
