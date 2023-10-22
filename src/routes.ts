@@ -1,7 +1,7 @@
 import { lazy } from "react";
 
 enum eRoutes {
-  signup = "/signup",
+  signup = "/",
   login = "/login",
 }
 
