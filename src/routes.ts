@@ -8,7 +8,7 @@ enum eRoutes {
 export const routes = [
   {
     path: eRoutes.signup,
-    component: lazy(() => import("./pages/Login")),
+    component: lazy(() => import("./pages/Signup")),
   },
   {
     path: eRoutes.login,
