@@ -76,6 +76,7 @@ const Form = ({ fields, onSubmit,...otherProps }: IForms) => {
               onChange={handleInputChange}
               ref={inputRefs}
               placeholder={field.label}
+              autoComplete="off"
               {...otherProps}
             />
             {errors[field.name] && <span style={{color:"#ff0000"}}>{errors[field.name]}</span>}
